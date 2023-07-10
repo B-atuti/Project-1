@@ -33,6 +33,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support, please feel free to contact us at [novaflowers3@gmail.com].
+For any inquiries or support, please feel free to contact us at novaflowers3@gmail.com.
 
 Happy shopping!
