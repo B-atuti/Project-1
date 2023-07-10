@@ -1,0 +1,77 @@
+{
+    "product": [
+      {
+          "id": "1" ,
+          "name": "RED ROSE",
+          "image": "media/media/images (1).jpeg",
+          "price": 13.54
+      },
+      {
+          "id": "2" ,
+          "name": "PINK PETAL",
+          "image": "media/media/images (2).jpeg",
+          "price": 12.00
+      },
+      {
+          "id": "3" ,
+          "name": "NEW DAY",
+          "image": "media/media/images (3).jpeg",
+          "price": 13.23
+      },
+      {
+          "id": "4" ,
+          "name": "SNAPPOSH",
+          "image": "media/media/images (4).jpeg",
+          "price": 11.24
+      },
+      {
+          "id": "5" ,
+          "name": "TULIP ROSES",
+          "image": "media/media/images (5).jpeg",
+          "price": 14.27
+      },
+      {
+          "id": "6" ,
+          "name": "LILY",
+          "image": "media/media/images (6).jpeg",
+          "price": 15.35
+      },
+      {
+          "id": "7" ,
+          "name": "EVELYN",
+          "image": "media/media/images (7).jpeg",
+          "price": 13.22
+      },
+      {
+          "id": "8" ,
+          "name": "DAFFODIL",
+          "image": "media/media/images (8).jpeg",
+          "price": 18.34
+      },
+      {
+          "id": "9" ,
+          "name": "GERBERA",
+          "image": "media/media/images (9).jpeg",
+          "price": 14.48
+      },
+      {
+          "id": "10" ,
+          "name": "RED PEONY",
+          "image": "media/media/images (10).jpeg",
+          "price": 16.14
+      },
+      {
+          "id": "11" ,
+          "name": "ORCHID",
+          "image": "media/media/images (11).jpeg",
+          "price": 12.74
+      },
+      {
+        "id": "12" ,
+        "name": "ZINNIA",
+        "image": "media/media/images (12).jpeg",
+        "price": 15.32
+    }
+  
+      ]
+  }

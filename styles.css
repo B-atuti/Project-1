@@ -1,0 +1,314 @@
+body{
+    background-color:coral;
+    font-family: system-ui;
+}
+.landing {
+    background-color: #F9F7F7;
+    padding: 50px;
+    text-align: center;
+}
+
+.landing h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+
+.landing p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.landing button {
+    background-color: #E8BC0E;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.landing button:hover {
+    background-color: #D2A209;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    transition: 0.5s;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+h1{
+    color: black;
+    font-weight: 500;
+    margin-left: 400px;
+}
+header .user-profile {
+    position: absolute;
+}
+header .user-profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.user-card {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.login-page {
+    position: absolute;
+    top: 10;
+    left: -750%;
+    width: 900%;
+    height: 150%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+  
+.login-page.active {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+  
+.login-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+.login-content h2 {
+    margin-top: 0;
+}
+  
+.login-content form {
+    margin-bottom: 20px;
+}
+  
+.login-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.login-content input {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+  
+.login-content button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.close-login {
+    position:absolute;
+    top: -80px;
+    right: 90px;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+header .shopping{
+    position: relative;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+header .shopping img{
+    width: 50px;
+}
+header .shopping span{
+    background-color: brown;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    position: absolute;
+    top: -6px;
+    left: 70%;
+    padding: 1px 5px;
+}
+.list{
+    display: grid;
+    grid-row:auto ;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-top: 20px;
+
+}
+.list li {
+    background-color: #DCE0E1;
+    margin: 2%;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 50px 50px grey ;
+    letter-spacing: 1px;
+}
+.list img {
+    width: 150px;
+    height: 150px;
+    
+}
+.list h2 {
+    font-weight: 500;
+    margin: 10px;
+}
+.list p {
+    margin: 10px;
+}
+.list button{
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:1% ;
+}
+.list li:hover{
+    transform: scale(1.05);
+}
+
+.card{
+    position:absolute;
+    top: 33%;
+    left:-50%;
+    width: 600px;
+    background-color:chocolate;
+    height: 100%;
+    transition: 0.5s;
+    
+}
+.card h1{
+    color:black;
+    font-weight: 800;
+    margin: 0;
+    padding: 0 15px;
+    height: 80px;
+    display: flex;
+    align-items:center;
+}
+.card .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.card .checkOut div{
+    background-color: #E8BC0E;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card .checkOut div:nth-child(2){
+    background-color: black;
+    color: beige;
+    text-align: 50%;
+    
+}
+
+.listCard {
+    margin-top: 50px;
+    padding: 20px;
+    background-color:transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  }
+  
+.listCard .item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+.listCard .item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+  
+.listCard .item .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.listCard .item .price {
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+  
+.listCard .total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+.listCard .quantity {
+    display: flex;
+    align-items:end;
+    margin:30px;
+    margin-left: 25%;
+    padding-left: 1%;
+
+}
+.listCard button{
+    margin: 2px;
+    background-color: aqua;
+    color: black;
+}
+  
+.listCard .closeShopping {
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active .card{
+    left: calc(100% - 500px);
+
+}
+.active .container{
+    transform: translateX(-200px);
+}

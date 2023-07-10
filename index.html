@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="landing">
+        <h1>Welcome to our Flower Shop</h1>
+        <p>Discover a wide variety of beautiful flowers for every occasion </p>
+        <button class="start-shopping"> Start Shopping</button>
+
+    </div>
+    <div class="container">
+        <header>
+            <h1>Your shopping</h1>
+            <div class="user-profile">
+                <img class="user-image" src="media/media/user.svg">
+                <div class="login-page">
+                    <div class="login-content">
+                        <h2>Login</h2>
+                        <form>
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                            <button type="submit">Login</button>
+                        </form>
+                        <span class="close-login">&times;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="shopping">
+                <img src="media/media/cart-shopping.svg">
+                <span class="quantity">0</span>
+
+            </div>
+        </header>
+        <div class="list"></div>
+
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
