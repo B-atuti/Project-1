@@ -12,7 +12,7 @@ Welcome to Nova Flower Shop repository! This project is a web-based e-commerce p
 
 ## Installation
 
-1. Clone the repository: 
+1. Clone the repository: git@github.com:B-atuti/Project-1.git
 2. Navigate to the project directory: 
 3. Open the index.html file in your preferred web browser.
 
